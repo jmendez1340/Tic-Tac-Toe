@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		962CD12B1E47DFFE002EE3EF /* Board.png in Resources */ = {isa = PBXBuildFile; fileRef = 962CD1281E47DFFE002EE3EF /* Board.png */; };
+		962CD12C1E47DFFE002EE3EF /* O.png in Resources */ = {isa = PBXBuildFile; fileRef = 962CD1291E47DFFE002EE3EF /* O.png */; };
+		962CD12D1E47DFFE002EE3EF /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = 962CD12A1E47DFFE002EE3EF /* X.png */; };
 		963E71911E47DACC00067867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E71901E47DACC00067867 /* AppDelegate.swift */; };
 		963E71931E47DACC00067867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E71921E47DACC00067867 /* ViewController.swift */; };
 		963E71961E47DACC00067867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963E71941E47DACC00067867 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		962CD1281E47DFFE002EE3EF /* Board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Board.png; path = Images/Board.png; sourceTree = "<group>"; };
+		962CD1291E47DFFE002EE3EF /* O.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = O.png; path = Images/O.png; sourceTree = "<group>"; };
+		962CD12A1E47DFFE002EE3EF /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = X.png; path = Images/X.png; sourceTree = "<group>"; };
 		963E718D1E47DACC00067867 /* Tick Tack Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tick Tack Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		963E71901E47DACC00067867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		963E71921E47DACC00067867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +80,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		962CD1271E47DFEA002EE3EF /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				962CD1281E47DFFE002EE3EF /* Board.png */,
+				962CD1291E47DFFE002EE3EF /* O.png */,
+				962CD12A1E47DFFE002EE3EF /* X.png */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		963E71841E47DACB00067867 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +113,7 @@
 		963E718F1E47DACC00067867 /* Tick Tack Toe */ = {
 			isa = PBXGroup;
 			children = (
+				962CD1271E47DFEA002EE3EF /* New Group */,
 				963E71901E47DACC00067867 /* AppDelegate.swift */,
 				963E71921E47DACC00067867 /* ViewController.swift */,
 				963E71941E47DACC00067867 /* Main.storyboard */,
@@ -232,7 +249,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962CD12B1E47DFFE002EE3EF /* Board.png in Resources */,
 				963E719B1E47DACC00067867 /* LaunchScreen.storyboard in Resources */,
+				962CD12C1E47DFFE002EE3EF /* O.png in Resources */,
+				962CD12D1E47DFFE002EE3EF /* X.png in Resources */,
 				963E71981E47DACC00067867 /* Assets.xcassets in Resources */,
 				963E71961E47DACC00067867 /* Main.storyboard in Resources */,
 			);
@@ -505,6 +525,7 @@
 				963E71B71E47DACD00067867 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		963E71B81E47DACD00067867 /* Build configuration list for PBXNativeTarget "Tick Tack ToeTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +534,7 @@
 				963E71BA1E47DACD00067867 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		963E71BB1E47DACD00067867 /* Build configuration list for PBXNativeTarget "Tick Tack ToeUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +543,7 @@
 				963E71BD1E47DACD00067867 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
